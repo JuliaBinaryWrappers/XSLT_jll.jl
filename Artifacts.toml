@@ -1,0 +1,113 @@
+[[XSLT]]
+arch = "x86_64"
+git-tree-sha1 = "91dc14d5dc858983825d23cb9bdb78e7306b8672"
+os = "macos"
+
+    [[XSLT.download]]
+    sha256 = "e440668c690af2917af0be7abc8d37371d305e78c2cc2a7166b5ccd3c3d4c754"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.x86_64-apple-darwin14.tar.gz"
+[[XSLT]]
+arch = "i686"
+git-tree-sha1 = "549228d76ded45a50cd18eda3ebc4bfdadb67055"
+libc = "glibc"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "5aa5a13364afef00b1c76b825ebc77447b506c444a0f228b1b9847c9230afa2c"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.i686-linux-gnu.tar.gz"
+[[XSLT]]
+arch = "x86_64"
+git-tree-sha1 = "4d6920ef4b89da9076a72feb02ca8ef1097c1765"
+os = "freebsd"
+
+    [[XSLT.download]]
+    sha256 = "421a1950cc3e9ea60fde8c564968b6742b51860e154e6305936c3b0fbdcd2d1a"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.x86_64-unknown-freebsd11.1.tar.gz"
+[[XSLT]]
+arch = "powerpc64le"
+git-tree-sha1 = "b6f73292ff83c48f7a57238387d432b283872fb8"
+libc = "glibc"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "e9dcd01046c00025b9b2198bb40a8cbb592d5565d503a7a132fbe4ed1af32a5d"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.powerpc64le-linux-gnu.tar.gz"
+[[XSLT]]
+arch = "x86_64"
+git-tree-sha1 = "77edf43056530fddad752b486bdb310ca944aa08"
+libc = "musl"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "232ae89b811adbb03ace426a88358ee3c45fcaa81f19e585a979fa31b6301970"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.x86_64-linux-musl.tar.gz"
+[[XSLT]]
+arch = "x86_64"
+git-tree-sha1 = "6cf65705631da686f36388ec31a5d3a83b9d606d"
+libc = "glibc"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "7e5bf6692bf2be62e12d40f5d5a659066315248c87c85483997aeef847e0eac3"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.x86_64-linux-gnu.tar.gz"
+[[XSLT]]
+arch = "x86_64"
+git-tree-sha1 = "fdf44441c14875626496890eb5494d7c31acbb2a"
+os = "windows"
+
+    [[XSLT.download]]
+    sha256 = "2f3f0121ea410a1fdceb110e9e2b1a4d4a84c14b4bcb20ecaeaac7e3eac96a7b"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.x86_64-w64-mingw32.tar.gz"
+[[XSLT]]
+arch = "aarch64"
+git-tree-sha1 = "61174a3a812fbbf879ca7961902c9efa6de58fa2"
+libc = "musl"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "419b3fe75fc82315471882582f5984091b41d1281f723df16576f350fc5b3e54"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.aarch64-linux-musl.tar.gz"
+[[XSLT]]
+arch = "armv7l"
+git-tree-sha1 = "d42a0735a253b708a4678d07dca93ce6be7a24aa"
+libc = "glibc"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "304934cc26968b36917f3e188592b393ffac409c23fa5ee4b625b713743ff6be"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.arm-linux-gnueabihf.tar.gz"
+[[XSLT]]
+arch = "i686"
+git-tree-sha1 = "26e96ffbdff7c1c488146540b55426730bcaf498"
+libc = "musl"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "d86d56251a9a629d86ebce1a12fb1254c5a2c591d8d673ab8932ffa0ad7d4d33"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.i686-linux-musl.tar.gz"
+[[XSLT]]
+arch = "armv7l"
+git-tree-sha1 = "eb38b053453461e5f7b860622f0ce60cd09f745a"
+libc = "musl"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "db02b33d7cb197e1098014ade2b4605b6b84205e3d618ce10ee0ad6341129b3d"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.arm-linux-musleabihf.tar.gz"
+[[XSLT]]
+arch = "aarch64"
+git-tree-sha1 = "42842c7f841771632454923285e80b561182badb"
+libc = "glibc"
+os = "linux"
+
+    [[XSLT.download]]
+    sha256 = "443007b5250c2df7e8a536c7dedd3bb89ac889d090e226481e1eab3900dca4ad"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.aarch64-linux-gnu.tar.gz"
+[[XSLT]]
+arch = "i686"
+git-tree-sha1 = "6013574255c9ed395fb4e1ac37eae0e419487bfe"
+os = "windows"
+
+    [[XSLT.download]]
+    sha256 = "d036d674cc68f765c34391fffb83ad3765912c7a44c207385c53ca95c244b609"
+    url = "https://github.com/JuliaBinaryWrappers/XSLT_jll.jl/releases/download/XSLT-v1.1.33+0/XSLT.v1.1.33.i686-w64-mingw32.tar.gz"
