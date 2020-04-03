@@ -1,6 +1,6 @@
 name = "XSLT_jll"
 uuid = "aed1982a-8fda-507f-9586-7b0439959a61"
-version = "1.1.33+0"
+version = "1.1.33+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -9,4 +9,4 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Libgcrypt_jll = "d4300ac3-e22c-5743-9152-c294e39db1e4"
 
 [compat]
-julia = "1.3"
+julia = "1.0"
