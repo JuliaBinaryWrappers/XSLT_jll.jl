@@ -7,6 +7,7 @@ using XML2_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "PATH"
+LIBPATH_default = ""
 
 # Relative path to `libexslt`
 const libexslt_splitpath = ["bin", "libexslt-0.dll"]
@@ -44,8 +45,6 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    # We first need to add to LIBPATH_list the libraries provided by Julia
-    append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (Libgcrypt_jll.PATH_list, XML2_jll.PATH_list,))
@@ -69,12 +68,8 @@ function __init__()
     filter!(!isempty, unique!(PATH_list))
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ';')
-    global LIBPATH = join(LIBPATH_list, ';')
+    global LIBPATH = join(vcat(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ';')
 
-    # Add each element of LIBPATH to our DL_LOAD_PATH (necessary on platforms
-    # that don't honor our "already opened" trick)
-    #for lp in LIBPATH_list
-    #    push!(DL_LOAD_PATH, lp)
-    #end
+    
 end  # __init__()
 
