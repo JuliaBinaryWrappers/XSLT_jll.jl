@@ -1,6 +1,6 @@
 name = "XSLT_jll"
 uuid = "aed1982a-8fda-507f-9586-7b0439959a61"
-version = "1.1.42+0"
+version = "1.1.43+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -13,8 +13,12 @@ Libiconv_jll = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
-Libgpg_error_jll = "1.50"
+XML2_jll = "2.13.6"
+Libgpg_error_jll = "1.51.1"
+Zlib_jll = "1.2.12"
 Libdl = "< 0.0.1, 1"
+Libgcrypt_jll = "1.11.1"
+Libiconv_jll = "1.18"
 Artifacts = "< 0.0.1, 1"
